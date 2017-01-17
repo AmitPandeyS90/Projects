@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>IST RIT</title>
+
+	<!-- jquery -->
+	<script src="https://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+	<!-- js -->
+	<script type="text/javascript" src="resources/scrollNav/jquery.scrollNav.min.js"></script>
+	<script type="text/javascript" src="resources/fullPage/jquery.fullPage.min.js"></script>
+	<script type="text/javascript" src="resources/fancyBox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+	<script type="text/javascript" src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script type="text/javascript" src="resources/js/myJS.js"></script>
+
+	<!--css -->
+	<link rel="stylesheet" type="text/css" href="resources/fullPage/jquery.fullPage.css">
+	<link rel="stylesheet" type="text/css" href="resources/fancyBox/source/jquery.fancybox.css?v=2.1.5" media="screen" />
+	<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" />
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="resources/css/mycss.css">
+
+
+</head>
+
+<body>
+
+	<div id="fullpage">
+		<!-- home -->
+		<div id="home" class="section window" anchors="firstPage">
+			<div class="pageTitleContainer">
+				<h2 id="mainHead">Information Sciences And Technologies</h2>
+			</div>
+			<p id="scrolldown">Scroll down or click on the menu options</p>
+		</div>
+
+		<!-- about -->
+		<div id="about" class="section window" anchors="secondPage">
+			<div class="pageTitleContainer">
+				<h2 class="pageTitle">About</h2>
+			</div>
+			<div id="aboutBox">
+			</div>
+		</div>
+
+		<!-- undergraduate -->
+		<div id="ug" class="section window" anchors="thirdPage">
+			<div class="pageTitleContainer">
+				<h2 class="pageTitle">Undergraduate Degrees</h2>
+			</div>
+
+			<div id="UGBox">
+
+			</div>
+
+			<div id="UgGradDetails">
+			</div>
+		</div>
+
+		<!-- graduate -->
+		<div id="grad" class="section window" anchors="fourthPage">
+			<div class="pageTitleContainer">
+				<h2 class="pageTitle">Graduate Degrees</h2>
+			</div>
+
+			<div id="GBox">
+			</div>
+
+			<div id="gradDetails">
+			</div>
+		</div>
+
+		<!-- Minor -->
+		<div id="min" class="section window" anchors="fifthPage">
+			<div class="pageTitleContainer">
+				<h2 class="pageTitle">Our Undergraduate Minors</h2>
+			</div>
+
+			<div id="MBox">
+			</div>
+
+			<div id="minorDetails">
+			</div>
+		</div>
+
+		<!-- employment -->
+		<div id="emp" class="section window" anchors="sixthPage">
+			<div class="pageTitleContainer">
+				<h2 class="pageTitle">Employment</h2>
+			</div>
+
+			<div id="EBox">
+			</div>
+
+		</div>
+
+		<!-- Map -->
+		<div id="JobMap" class="section window" anchors="seventhPage">
+			<div class="pageTitleContainer">
+				<h2 class="pageTitle">Where Our Students Work</h2>
+			</div>
+
+			<div id="MapBox">
+				<iframe id="frame" src="//ist.rit.edu/api/map/" height="500" width="900" frameBorder="0">
+						<p>Your browser does not support iframes</p>
+				</iframe>
+			</div>
+		</div>
+
+		<!-- coop table -->
+		<div id="job" class="section window" anchors="eighthPage">
+			<div class="pageTitleContainer">
+				<h2 class="pageTitle">Where Our Students Work</h2>
+			</div>
+
+			<!-- coop box -->
+			<div id="coopBox">
+			</div>
+
+
+			<table id="dtable">
+				<thead id="thead">
+				</thead>
+				<tbody id="tbody">
+				</tbody>
+			</table>
+
+			<!-- employer box -->
+			<div id="emplBox">
+			</div>
+
+
+			<table id="Etable">
+				<thead id="Ehead">
+				</thead>
+				<tbody id="Ebody">
+				</tbody>
+			</table>
+		</div>
+
+		<!-- our people -->
+		<div id="ppl" class="section window" anchors="ninthPage">
+			<div class="pageTitleContainer">
+				<h2 class="pageTitle">Our People</h2>
+			</div>
+
+			<div id="pplBox">
+			</div>
+
+			<div id="facultyDetails">
+			</div>
+
+
+		</div>
+		<!-- end of our people div -->
+
+		<!-- research by interestArea -->
+		<div id="ra" class="section window" anchors="tenthPage">
+			<div class="pageTitleContainer">
+				<h2 class="pageTitle">Faculty Research By Interest Area</h2>
+			</div>
+
+			<div id="accordion">
+
+			</div>
+
+		</div>
+		<!-- end of research by interestArea -->
+
+		<!-- reseacrh by faculty -->
+		<div id="rbf" class="section window" anchors="eleventhPage">
+			<div class="pageTitleContainer">
+				<h2 class="pageTitle">Faculty Research: Lookup By Faculty</h2>
+			</div>
+
+			<div id="rbfBox">
+			</div>
+
+			<div id="rbfDetails">
+			</div>
+		</div>
+		<!--end research by faculty -->
+
+		<!-- Student Resources -->
+		<div id="sr1" class="section window" anchors="twelfthPage">
+			<div class="pageTitleContainer">
+				<h2 class="pageTitle">Student Resources</h2>
+			</div>
+
+			<div id="srBox">
+			</div>
+
+			<div id="srDetails">
+			</div>
+		</div>
+		<!--end Student resources -->
+
+		<!-- Contact Form -->
+		<div id="cf" class="section window" anchors="thirteenthPage">
+			<div class="pageTitleContainer">
+				<h2 class="pageTitle">Contact Us</h2>
+			</div>
+
+			<div id="cfBox">
+				<iframe id="frame" src="//ist.rit.edu/api/contactForm/" height="500" width="900" frameBorder="0" seamless="seamless" scrolling="no" allowtransparency="true">
+						<p>Your browser does not support iframes</p>
+				</iframe>
+			</div>
+
+		</div>
+
+		<!-- footer -->
+		<div class="section fp-auto-height" id="section-footer" anchors="fourteenthPage">
+			<div id="blac">
+
+
+				<div id="links">
+				</div>
+
+				<div id="qlinks">
+				</div>
+
+				<div id="copyrite">
+				</div>
+
+				<div id="news">
+				</div>
+			</div>
+		</div>
+		<!-- end footer -->
+	</div>
+	<!--fullpage div -->
+
+
+</body>
+
+</html>

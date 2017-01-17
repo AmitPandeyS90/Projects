@@ -1,0 +1,122 @@
+//graduate
+// myXhr('get',{path:'/degrees/graduate/'},'#graduate').done(function(json){
+// 	var x;
+// 	var y;
+// 	$.each(json.graduate,function(i, degree){
+//
+// 			if (degree.degreeName != 'graduate advanced certificates') {
+// 				x += "<div onclick = 'getConcentration(this, \"/degrees/graduate/degreeName\")' data-degree =" + (degree.degreeName)  + ">";
+// 				x += "<h3>" + (degree.title) + "</h3>"
+// 				x += "<h6>" + (degree.description) + "</h6>" + "</div>";
+// 			}
+// 			else {
+// 					y += "<h3>" + "Our " + degree.degreeName + "</h3>";
+//
+// 					$.each(degree.availableCertificates, function(index, item) {
+// 							if (item == "Web Development Advanced certificate")	{
+// 									y += '<a href = "http://www.rit.edu/programs/web-development-adv-cert">' + item + "</a>";
+// 							}
+// 							else {
+// 									y += '<a href = "http://www.rit.edu/programs/networking-planning-and-design-adv-cert">' + item + "</a>";
+// 							}
+// 					}); //end each
+// 			} //end else
+// 	}); //end of each
+//
+// 		$('#graduate').append( x );
+// 		$('#certificates').append( y );
+// });	//end of myxhr graduate
+
+
+// <!-- myXhr('get',{path:'/minors/UgMinors/'},'#minors').done(function(json){ -->
+//
+// 		<!-- //got good data back in json -->
+// 		<!-- //dump out all of the degree titles -->
+// 		<!-- $.each(json.UgMinors,function(i, item){ -->
+// 		<!-- console.log($(this)); -->
+// 		<!-- console.log($(item)); -->
+//
+// 		<!-- add logo here -->
+//
+//
+//
+// 		<!-- $('#minors').append('<h2>'+item.title+'</h2>'+'<p>'+item.description+'</p>'); -->
+//
+//
+// 	<!-- }); -->
+// <!-- });  -->
+
+// 	<!-- myXhr('get',{path:'/people/'},'#people').done(function(json){-->
+//
+// 	<!-- 	var x='';-->
+// 	<!--	$.each(json.faculty,function(i, item){-->
+//
+// 	<!--		console.log(i);-->
+// 	<!--		console.log(item);-->
+// 	<!--		console.log($(this));-->
+// 	<!--		x+='<div onclick="getFac(this)" data-username="'+item.username+'">';-->
+// 	<!--		x+='<h2>'+item.name+'</h2><p>'+item.tagline+'</p>';-->
+// 	<!--		x+='<img src="'+item.imagePath+'"/></div>';-->
+// 	<!--	});-->
+// 	<!--	$('#people').html(x);-->
+// 	<!--}); -->
+//
+// });
+
+
+// function getFac(dom, xpath){
+// 	myXhr('get',{path:'/people/faculty/username='+$(dom).attr('data-username')},null).done(function(json){
+// 		console.log(json);
+// 	});
+// }
+
+<!-- BODY Below -->
+
+
+<!-- section contains information on 'Our Degrees' -->
+ <!-- <div class="section">
+    <div class="slide">
+      <div id="undergraduate"> </div>
+      <div id = "uConcentrations"></div>
+    </div>
+</div> -->
+
+<!-- <div class="section">
+  <div class="slide">
+    <div id="graduate"></div>
+    <div id = "gConcentrations"></div>
+  </div>
+</div> -->
+
+<!-- <div class="section">
+  <div id = "certificates"></div>
+</div>
+
+<div class="section">
+    <div id = "minors"> </div>
+</div> -->
+
+ <!-- section contains information on 'Employment Statistics' -->
+ <!-- <div class="section">
+  <div id="careerInfo"> </div>
+  <div id="careerLocation"> </div>
+</div> -->
+
+<!-- section contains information on 'Our People and Research' -->
+<!-- <div class="section">
+  <div id="people"> </div>
+  <div id="RBI"> </div>
+  <div id = "RBF"> </div>
+</div> -->
+
+<!-- //section contains information on 'Resources' -->
+<!-- <div class="section">
+  <div id="CS"> </div>
+  <div id="PS"> </div>
+  <div id = "CPS"> </div>
+</div> -->
+
+
+  <!-- <div class="section">
+      <div id="copyright"></div>
+  </div> -->
