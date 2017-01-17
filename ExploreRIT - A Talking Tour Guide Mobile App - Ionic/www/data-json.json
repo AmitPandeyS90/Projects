@@ -1,0 +1,57 @@
+[
+  {
+    "lat": 43.08471215,
+    "long": -77.6799649,
+    "title": "Golisano",
+    "desc": "Golisano college offers major in Computer Security, Computer Science, Game Design and Development, Information Science And Security."
+  },
+  {
+    "lat": 43.08357008,
+    "long": -77.67982274,
+    "title": "RIT Magic Center",
+    "desc": "This is where ideas are generated and implemented. One of the idea was to use kinect to navigate a quadcopter. The project was successful."
+  },
+  {
+    "lat": 43.08299806,
+    "long": -77.68082857,
+    "title": "Cantina Grille",
+    "desc": "This is where people please their spicy taste buds"
+  },
+  {
+    "lat": 43.08276689,
+    "long": -77.68002391,
+    "title": "Café at CrossRoads",
+    "desc": "This is where people please their American taste buds! Try Asian Bar, Sandwiches. For coffee try Midnight Oil. Also try vegetarian Margarita sandwich."
+  },
+  {
+    "lat": 43.077710599999996,
+    "long": -77.6945422,
+    "title": "My Home",
+    "desc": "This iswhere I live but would be moving out soon"
+  },
+  {
+    "lat": 43.0852766,
+    "long": -77.6757579,
+    "title": "College of Imaging Arts and Sciences",
+    "desc": "This college offers programs in Graphic Design, Metal and Jewellry, and popular Medical Illustration"
+  },
+  {
+    "lat": 43.0838021,
+    "long": -77.679863,
+    "title": "OpenLab",
+    "desc": "This is open Lab. Teaching Assistants are available to help with the project and lab work. "
+  },
+  {
+    "lat": 43.0842212,
+    "long": -77.6797839,
+    "title": "Foundation of Mobile Design",
+    "desc": "This is Foundation of Mobile Design Class."
+  },
+  {
+    "lat": 43.097765,
+    "long": -77.570639,
+    "title": "Kaavya Lives Here",
+    "desc": "Kaavya's favorite teacher is Mr. Tellex who gets excited while teaching. She is a big fan of 21 pilots."
+  }
+
+]

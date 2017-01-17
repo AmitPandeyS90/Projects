@@ -1,0 +1,18 @@
+/* Empty. Add your own CSS if you like */
+.icon {font-size: 0.8em;}
+
+.padding p {margin: 10% auto auto 3%;
+            font-family: "SayWeb";
+            font-size: 1.2em}
+
+.padding h3 {text-align: left;
+            font: sans-serif;
+            margin-top: 10%;
+            font-size: 2em}
+
+#inst {margin-top: 20%;}
+
+#map {
+    height: 100%;
+    width: 100%;
+}
